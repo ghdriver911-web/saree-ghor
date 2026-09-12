@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saree Ghor | Elegant Saree Collection</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff8f8;
+      color: #222;
+    }
+
+    header {
+      background: #7b1e3a;
+      color: white;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 16px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: #f5d9df;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #7b1e3a;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .products {
+      padding: 60px 8%;
+      text-align: center;
+    }
+
+    .products h2 {
+      font-size: 32px;
+      margin-bottom: 35px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+    }
+
+    .saree-image {
+      height: 250px;
+      background: #ead0d7;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+
+    .price {
+      color: #7b1e3a;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    button {
+      background: #7b1e3a;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 700px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      nav {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Saree Ghor</div>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#collection">Collection</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Elegance in Every Saree</h1>
+    <p>Discover beautiful sarees for every occasion.</p>
+    <a href="#collection" class="btn">Shop Collection</a>
+  </section>
+
+  <section class="products" id="collection">
+    <h2>Featured Collection</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <div class="saree-image">Saree Image</div>
+        <h3>Premium Silk Saree</h3>
+        <p class="price">৳ 2,500</p>
+        <button>View Details</button>
+      </div>
+
+      <div class="card">
+        <div class="saree-image">Saree Image</div>
+        <h3>Elegant Jamdani Saree</h3>
+        <p class="price">৳ 3,200</p>
+        <button>View Details</button>
+      </div>
+
+      <div class="card">
+        <div class="saree-image">Saree Image</div>
+        <h3>Classic Party Saree</h3>
+        <p class="price">৳ 2,800</p>
+        <button>View Details</button>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Saree Ghor. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
